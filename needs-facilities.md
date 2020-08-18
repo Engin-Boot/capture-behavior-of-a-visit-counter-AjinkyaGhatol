@@ -1,7 +1,7 @@
 # Visit-counter for a Facilities Manager
 
 note: hospital has two parking areas: one in open ground or area and second in
-basement of hospital where basememt parking is reserved for staff and specialist
+basement of hospital where basement parking is reserved for staff and specialist
 of hospital.
 
 Scenario: Parking slot in open ground available and visitor is other than staff
