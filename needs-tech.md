@@ -3,7 +3,7 @@
 Scenario: Recover across restarts of the server
 that runs the visit-counter
 
-  Given system stores data on multiple servers 
+  Given system stores data on multiple servers
   When system restarts
   Then recover data from nearest server available
 
