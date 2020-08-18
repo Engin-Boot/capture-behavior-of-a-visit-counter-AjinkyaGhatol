@@ -8,8 +8,8 @@ Scenario: Only 10 percent of beds are remaining out of all beds
   director
   When Director got the report
   Then Director ordered staff to bring 40 percentage of current beds from the
-  storage area of hospital 
-
+  storage area of hospital
+  
 Scenario: Only 10 percent of nursing staff are remaining out of all nursing
 staff
 
