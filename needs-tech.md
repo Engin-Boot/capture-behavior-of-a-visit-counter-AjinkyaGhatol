@@ -12,6 +12,6 @@ Scenario: Reconcile counts if the sensor is offline for a while
   Given hospital has installed many number of sensors and at least
   one of them is online at any time
   When any one of the sensor goes offline
-  Then task is switched to one of available sensor
+  Then visitor enters through another available sensor gate
   note: Hospital uses card reader sensor and each user gets card
   at main gate of hospital area
