@@ -9,7 +9,7 @@ that runs the visit-counter
 
 Scenario: Reconcile counts if the sensor is offline for a while
 
-  Given hospital has installed many number of sensors and at least
+  Given hospital has installed number of sensors and at least
   one of them is online at any time
   When any one of the sensor goes offline
   Then visitor enters through another available sensor gate
