@@ -2,7 +2,7 @@
 
 note: Hospital has storage area which maintains stock for extra beds.
 
-Scenario: Only 10 percent of beds are remaining out of all beds
+Scenario: 10 percent of beds are remaining out of all beds
 
   Given management system in hospital sent report about number of beds to
   director
@@ -10,7 +10,7 @@ Scenario: Only 10 percent of beds are remaining out of all beds
   Then Director ordered staff to bring 40 percentage of current beds from the
   storage area of hospital
   
-Scenario: Only 10 percent of nursing staff are remaining out of all nursing
+Scenario: 10 percent of nursing staff are remaining out of all nursing
 staff
 
   Given management system in hospital sent report about number of beds to
