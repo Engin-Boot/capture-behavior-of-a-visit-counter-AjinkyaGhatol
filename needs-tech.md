@@ -25,6 +25,6 @@ Scenario: Director wants report of custom time period
   
 Scenario: Electric power source from mincipal corporation break
 
-  Given: Hospital has installed generators and system has its own power source 
+  Given: Hospital has installed generators and system has its own power source
   When system identifies break in power source
   Then it turns on generator of hospital
