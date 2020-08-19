@@ -21,7 +21,7 @@ Scenario: Director wants report of custom time period
   Given: System stores live data on server with corresponding time
   When director press generate report button on user interface
   Then system fetch data between given time period from nearest server
-  and generate report wich provides graph representation of data
+  and generate report which provides graphical representation of data
   
 Scenario: Electric power source from power station break
 
