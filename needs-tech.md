@@ -6,7 +6,7 @@ that runs the visit-counter
   Given system stores data on multiple servers
   When system restarts
   Then recover data from nearest server available
-
+  
 Scenario: Reconcile counts if the sensor is offline for a while
 
   Given hospital has installed number of sensors and at least
