@@ -18,12 +18,12 @@ Scenario: Reconcile counts if the sensor is offline for a while
   
 Scenario: Director wants report of custom time period
 
-  Given: Syatem stores live data on server with corresponding timespam
+  Given: System stores live data on server with corresponding time
   When director press generate report button on user interface
   Then system fetch data between given time period from nearest server
-  and generates report wich provides graphical representation of data
+  and generate report wich provides graphical representation of data
   
-Scenario: Electric power source from mincipal corporation break
+Scenario: Electric power source from muncipal corporation break
 
   Given: Hospital has installed generators and system has its own power source
   When system identifies break in power source
