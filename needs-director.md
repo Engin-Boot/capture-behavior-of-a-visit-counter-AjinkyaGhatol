@@ -13,7 +13,7 @@ Scenario: 10 percent of beds are remaining out of all beds
 Scenario: 10 percent of nursing staff are remaining out of all nursing
 staff
 
-  Given management system in hospital sent report about number of beds to
+  Given management system in hospital sent report about number of staff to
   director
   When Director got the report
   Then Director contacted hospital nearby for availability of nurses and hire
